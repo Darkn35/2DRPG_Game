@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayDialogue
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 77367485
+    locked: 0
+  - name: Furniture
+    uniqueID: 3831720397
+    locked: 0
+  - name: Player
+    uniqueID: 202846015
+    locked: 0
+  - name: BackgroundCollidable
+    uniqueID: 1280758361
+    locked: 0
+  - name: Collidable
+    uniqueID: 1296752327
+    locked: 0
+  - name: WallFurniture
+    uniqueID: 1989515591
+    locked: 0

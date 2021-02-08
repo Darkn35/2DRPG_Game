@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08108e497d646b08215f88b69e361f0, type: 3}
+  m_Name: SampleConversation 2
+  m_EditorClassIdentifier: 
+  entryNode:
+    guid: a33806d1-7d80-451c-884f-562e57b6511c
+    position: {x: 100, y: 200}
+    type: 1
+  nodeLinkData:
+  - baseNodeGuid: a33806d1-7d80-451c-884f-562e57b6511c
+    baseNodeType: 1
+    targetNodeGuid: fe4251c3-fc02-4ad5-a3ec-96d2349b3d13
+    targetNodeType: 3
+  - baseNodeGuid: fe4251c3-fc02-4ad5-a3ec-96d2349b3d13
+    baseNodeType: 3
+    targetNodeGuid: ad126e57-6de4-4ccb-bee2-cb48198f0a30
+    targetNodeType: 3
+  - baseNodeGuid: ad126e57-6de4-4ccb-bee2-cb48198f0a30
+    baseNodeType: 3
+    targetNodeGuid: 515e4267-19dc-4124-abbf-662c641f3bef
+    targetNodeType: 3
+  - baseNodeGuid: ad126e57-6de4-4ccb-bee2-cb48198f0a30
+    baseNodeType: 3
+    targetNodeGuid: 81ff2d90-bc9d-4995-8c99-2935c3630faf
+    targetNodeType: 3
+  - baseNodeGuid: ad126e57-6de4-4ccb-bee2-cb48198f0a30
+    baseNodeType: 3
+    targetNodeGuid: 81ff2d90-bc9d-4995-8c99-2935c3630faf
+    targetNodeType: 3
+  - baseNodeGuid: 515e4267-19dc-4124-abbf-662c641f3bef
+    baseNodeType: 3
+    targetNodeGuid: 81ff2d90-bc9d-4995-8c99-2935c3630faf
+    targetNodeType: 3
+  dialogueNodeData:
+  - guid: fe4251c3-fc02-4ad5-a3ec-96d2349b3d13
+    position: {x: 256, y: 201}
+    type: 3
+    dialogueText: atasdfasfsafas
+    speakerName: Narrator
+    responses:
+    - Continue...
+    conditionsToToggle:
+    - {fileID: 11400000, guid: f959ee35f881d4b48b8213e8a4ccb8a4, type: 2}
+  - guid: ad126e57-6de4-4ccb-bee2-cb48198f0a30
+    position: {x: 681, y: 209}
+    type: 3
+    dialogueText: asdasdasdsadas
+    speakerName: Mom
+    responses:
+    - Yeah yeasdasdas
+    - asdasdasdas
+    - dfhdfhdfhdf
+    conditionsToToggle:
+    - {fileID: 11400000, guid: 5e84f843844a65d469030b8d172e98bd, type: 2}
+    - {fileID: 11400000, guid: 5e84f843844a65d469030b8d172e98bd, type: 2}
+    - {fileID: 11400000, guid: f959ee35f881d4b48b8213e8a4ccb8a4, type: 2}
+  - guid: 81ff2d90-bc9d-4995-8c99-2935c3630faf
+    position: {x: 1430, y: 277}
+    type: 3
+    dialogueText: 
+    speakerName: 
+    responses: []
+    conditionsToToggle: []
+  - guid: 515e4267-19dc-4124-abbf-662c641f3bef
+    position: {x: 1025, y: 65}
+    type: 3
+    dialogueText: "Okay.. but don\u2019t take too long okay sweetheart? Your father\u2019s
+      a bit.."
+    speakerName: Mom
+    responses:
+    - Again..?
+    conditionsToToggle:
+    - {fileID: 11400000, guid: f959ee35f881d4b48b8213e8a4ccb8a4, type: 2}
+  conditionNodeData: []
+  exposedProperties:
+  - propertyName: '@@PLAYERNAME@@'
+    propertyValue: John
